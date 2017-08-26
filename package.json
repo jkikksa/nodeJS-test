@@ -1,0 +1,19 @@
+{
+  "name": "YandexNodeJSSchool",
+  "version": "1.0.0",
+  "description": "Yandex NodeJS School test task",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js",
+    "server": "browser-sync start --server --no-notify --files index.js index.html",
+    "start": "npm run server"
+  },
+  "author": "Dmitry Rusakov",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "eslint": "^4.5.0",
+    "eslint-config-htmlacademy": "^0.3.0"
+  }
+}
